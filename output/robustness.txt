@@ -1,0 +1,46 @@
+ROBUSTNESS OF THE PRIMARY TEST (H1: |ES| Type A > Type B+C, one-sided MWU)
+
+1. THRESHOLD SENSITIVITY
+type_A_line type_C_line  n_A  n_B  n_C   p_H1  cliffs_delta  p_kruskal
+        65%         35%    5    5    3 0.0008        1.0000     0.0096
+        65%         40%    5    5    3 0.0008        1.0000     0.0096
+        65%         45%    5    6    2 0.0008        1.0000        NaN
+        70%         35%    4    6    3 0.0014        1.0000     0.0117
+        70%         40%    4    6    3 0.0014        1.0000     0.0117
+        70%         45%    4    7    2 0.0014        1.0000        NaN
+        75%         35%    4    6    3 0.0014        1.0000     0.0117
+        75%         40%    4    6    3 0.0014        1.0000     0.0117
+        75%         45%    4    7    2 0.0014        1.0000        NaN
+   Type A at 65%: Arbitrum DAO, Convex Finance, ENS, Ribbon Finance, ShapeShift
+   Type A at 70%: Arbitrum DAO, Convex Finance, ENS, Ribbon Finance
+   Type A at 75%: Arbitrum DAO, Convex Finance, ENS, Ribbon Finance
+   H1 significant (p < 0.05) in 9 of 9 combinations
+
+2. LEAVE-ONE-OUT
+       dropped  n_A  n_BC   p_H1  cliffs_delta
+  Arbitrum DAO    3     9 0.0045        1.0000
+Convex Finance    3     9 0.0045        1.0000
+           ENS    3     9 0.0045        1.0000
+Ribbon Finance    3     9 0.0045        1.0000
+          Aave    4     8 0.0020        1.0000
+    Badger DAO    4     8 0.0020        1.0000
+      Compound    4     8 0.0020        1.0000
+       Gitcoin    4     8 0.0020        1.0000
+          Lido    4     8 0.0020        1.0000
+    ShapeShift    4     8 0.0020        1.0000
+         Beefy    4     8 0.0020        1.0000
+    Index Coop    4     8 0.0020        1.0000
+   Olympus DAO    4     8 0.0020        1.0000
+   largest p = 0.0045 (dropping Arbitrum DAO)
+
+3. WITHOUT OLYMPUS DAO
+   H1: n = 4 vs 8, p = 0.0020, delta = 1.000;  Kruskal-Wallis p = not run (a group < 3)
+
+4-5. OTHER TAIL LEVELS AND SUB-PERIODS
+                                          test  tail_obs   p_H1  cliffs_delta
+                         ES 90.0%, full period       118 0.0014        1.0000
+                         ES 95.0%, full period        59 0.0014        1.0000
+                         ES 97.5%, full period        29 0.0014        1.0000
+                         ES 99.0%, full period        11 0.0014        1.0000
+ ES 95%, first half (2023-07-01 to 2025-02-13)        29 0.0056        0.8889
+ES 95%, second half (2025-02-14 to 2026-09-30)        29 0.0014        1.0000

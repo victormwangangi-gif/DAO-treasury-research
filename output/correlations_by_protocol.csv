@@ -1,0 +1,217 @@
+protocol,archetype,period,pair,rho,n_days
+Aave,B,main_period,native-bluechip,0.7400839319530825,1188
+Aave,B,main_period,native-stablecoin,0.15575804126060705,1188
+Aave,B,main_period,bluechip-stablecoin,0.18156266861511236,1188
+Aave,B,main_period,native-other,0.7105406960615055,1188
+Arbitrum DAO,A,main_period,native-bluechip,0.7675244301050669,1004
+Arbitrum DAO,A,main_period,native-stablecoin,0.028293272939281515,822
+Arbitrum DAO,A,main_period,bluechip-stablecoin,0.019314557243685956,730
+Badger DAO,B,main_period,native-bluechip,0.5949072217982356,1188
+Badger DAO,B,main_period,native-stablecoin,0.11310971911446878,1188
+Badger DAO,B,main_period,bluechip-stablecoin,0.18170605732369013,1188
+Badger DAO,B,main_period,native-other,0.5312770089539832,1188
+Beefy,C,main_period,native-bluechip,0.2222426099638922,1188
+Beefy,C,main_period,native-stablecoin,0.023738979373408457,1188
+Beefy,C,main_period,bluechip-stablecoin,0.16858360921164464,1188
+Beefy,C,main_period,native-other,0.21364911387767813,1188
+Compound,B,main_period,native-bluechip,0.653026733934992,1188
+Compound,B,main_period,native-stablecoin,0.08276033383365197,1188
+Compound,B,main_period,bluechip-stablecoin,0.07480995320664435,1188
+Compound,B,main_period,native-other,0.6219893325887395,1188
+Convex Finance,A,main_period,native-bluechip,0.6369809672480196,1004
+Convex Finance,A,main_period,native-stablecoin,0.10862662381329098,821
+Convex Finance,A,main_period,bluechip-stablecoin,0.129290307409525,729
+Convex Finance,A,main_period,native-other,0.7174083992040695,1188
+ENS,A,main_period,native-bluechip,0.7626631504274825,1188
+ENS,A,main_period,native-stablecoin,0.11142308741893649,1188
+ENS,A,main_period,bluechip-stablecoin,0.12410745402109108,1188
+ENS,A,main_period,native-other,0.7101360188122303,1188
+Gitcoin,B,main_period,native-bluechip,0.6006141744822394,1188
+Gitcoin,B,main_period,native-stablecoin,0.08065510653944731,1188
+Gitcoin,B,main_period,bluechip-stablecoin,0.08371795374398874,1188
+Gitcoin,B,main_period,native-other,0.6531561691235194,1188
+Index Coop,C,main_period,native-bluechip,0.3745881541274131,1188
+Index Coop,C,main_period,native-stablecoin,0.037932136165093014,1188
+Index Coop,C,main_period,bluechip-stablecoin,0.10323875985774765,1188
+Lido,B,main_period,native-bluechip,0.7578831348115369,1188
+Lido,B,main_period,native-stablecoin,0.09799703924815523,1188
+Lido,B,main_period,bluechip-stablecoin,0.11367599420600917,1188
+Lido,B,main_period,native-other,0.6179339805679903,1026
+Olympus DAO,C,main_period,native-bluechip,0.2434994589006929,1188
+Olympus DAO,C,main_period,native-stablecoin,0.0869736641373357,1188
+Olympus DAO,C,main_period,bluechip-stablecoin,0.13832547239456808,1188
+Olympus DAO,C,main_period,native-other,0.17832756280513973,1188
+Ribbon Finance,A,main_period,native-bluechip,0.5630310342599318,1188
+Ribbon Finance,A,main_period,native-stablecoin,0.08432959132975966,1188
+Ribbon Finance,A,main_period,bluechip-stablecoin,0.07237994993472163,1188
+Ribbon Finance,A,main_period,native-other,0.5192533429945223,1188
+ShapeShift,B,main_period,native-bluechip,0.4945609362522239,1188
+ShapeShift,B,main_period,native-stablecoin,0.09956023054438239,1188
+ShapeShift,B,main_period,bluechip-stablecoin,0.14359387481250843,1188
+ShapeShift,B,main_period,native-other,0.35849879966923176,1188
+Aave,B,aug_2024_selloff_baseline,native-bluechip,0.7455106071809366,120
+Aave,B,aug_2024_selloff_baseline,native-stablecoin,0.30276086125127766,120
+Aave,B,aug_2024_selloff_baseline,bluechip-stablecoin,0.39399145356889054,120
+Aave,B,aug_2024_selloff_baseline,native-other,0.7845841247110018,120
+Aave,B,aug_2024_selloff_window,native-bluechip,0.5535480911271055,41
+Aave,B,aug_2024_selloff_window,native-stablecoin,0.13786711949426803,41
+Aave,B,aug_2024_selloff_window,bluechip-stablecoin,-0.008811218403749483,41
+Aave,B,aug_2024_selloff_window,native-other,0.601685327350618,41
+Arbitrum DAO,A,aug_2024_selloff_baseline,native-bluechip,0.8439399381617878,120
+Arbitrum DAO,A,aug_2024_selloff_window,native-bluechip,0.8986233817196309,41
+Badger DAO,B,aug_2024_selloff_baseline,native-bluechip,0.7610141728853339,120
+Badger DAO,B,aug_2024_selloff_baseline,native-stablecoin,0.28576695145471914,120
+Badger DAO,B,aug_2024_selloff_baseline,bluechip-stablecoin,0.37720279962529096,120
+Badger DAO,B,aug_2024_selloff_baseline,native-other,0.8281182482179937,120
+Badger DAO,B,aug_2024_selloff_window,native-bluechip,0.81209372156378,41
+Badger DAO,B,aug_2024_selloff_window,native-stablecoin,0.139416518359233,41
+Badger DAO,B,aug_2024_selloff_window,bluechip-stablecoin,-0.007215052019272776,41
+Badger DAO,B,aug_2024_selloff_window,native-other,0.8255726212525971,41
+Beefy,C,aug_2024_selloff_baseline,native-bluechip,0.6086596237904972,120
+Beefy,C,aug_2024_selloff_baseline,native-stablecoin,0.3261905283785064,120
+Beefy,C,aug_2024_selloff_baseline,bluechip-stablecoin,0.36352287220066104,120
+Beefy,C,aug_2024_selloff_baseline,native-other,0.7175480230828689,120
+Beefy,C,aug_2024_selloff_window,native-bluechip,0.8906248105284714,41
+Beefy,C,aug_2024_selloff_window,native-stablecoin,0.10046921020309432,41
+Beefy,C,aug_2024_selloff_window,bluechip-stablecoin,0.01156006985580197,41
+Beefy,C,aug_2024_selloff_window,native-other,0.8675743013196447,41
+Compound,A,aug_2024_selloff_baseline,native-bluechip,0.7150277135233326,120
+Compound,A,aug_2024_selloff_baseline,native-stablecoin,0.21518408824906382,120
+Compound,A,aug_2024_selloff_baseline,bluechip-stablecoin,0.3167610617785912,120
+Compound,A,aug_2024_selloff_baseline,native-other,0.7296086743606963,120
+Compound,A,aug_2024_selloff_window,native-bluechip,0.7104789024548406,41
+Compound,A,aug_2024_selloff_window,native-stablecoin,0.07237570894513853,41
+Compound,A,aug_2024_selloff_window,bluechip-stablecoin,-0.005095803462219315,41
+Compound,A,aug_2024_selloff_window,native-other,0.6930453482838855,41
+Convex Finance,A,aug_2024_selloff_baseline,native-bluechip,0.5518112364424047,120
+Convex Finance,A,aug_2024_selloff_baseline,native-other,0.631454226586767,120
+Convex Finance,A,aug_2024_selloff_window,native-bluechip,0.7739323437997437,41
+Convex Finance,A,aug_2024_selloff_window,native-other,0.7596244700818156,41
+ENS,A,aug_2024_selloff_baseline,native-bluechip,0.7802122043525419,120
+ENS,A,aug_2024_selloff_baseline,native-stablecoin,0.27634594545296914,120
+ENS,A,aug_2024_selloff_baseline,bluechip-stablecoin,0.36746353602711723,120
+ENS,A,aug_2024_selloff_baseline,native-other,0.7174162860339969,120
+ENS,A,aug_2024_selloff_window,native-bluechip,0.9430929230528182,41
+ENS,A,aug_2024_selloff_window,native-stablecoin,0.14173179655099247,41
+ENS,A,aug_2024_selloff_window,bluechip-stablecoin,0.10908085525812611,41
+ENS,A,aug_2024_selloff_window,native-other,0.8758173187055919,41
+Gitcoin,B,aug_2024_selloff_baseline,native-bluechip,0.6923963850244866,120
+Gitcoin,B,aug_2024_selloff_baseline,native-stablecoin,0.23952912515126745,120
+Gitcoin,B,aug_2024_selloff_baseline,bluechip-stablecoin,0.3185820772620291,120
+Gitcoin,B,aug_2024_selloff_baseline,native-other,0.8254730104289865,120
+Gitcoin,B,aug_2024_selloff_window,native-bluechip,0.8085499294715072,41
+Gitcoin,B,aug_2024_selloff_window,native-stablecoin,0.1506459216370092,41
+Gitcoin,B,aug_2024_selloff_window,bluechip-stablecoin,-0.005828014795523666,41
+Gitcoin,B,aug_2024_selloff_window,native-other,0.8744161658231994,41
+Index Coop,B,aug_2024_selloff_baseline,native-bluechip,0.6074801368261589,120
+Index Coop,B,aug_2024_selloff_baseline,native-stablecoin,0.30185073675224794,120
+Index Coop,B,aug_2024_selloff_baseline,bluechip-stablecoin,0.3317899607776892,120
+Index Coop,B,aug_2024_selloff_window,native-bluechip,0.832316199916844,41
+Index Coop,B,aug_2024_selloff_window,native-stablecoin,0.06692887212566839,41
+Index Coop,B,aug_2024_selloff_window,bluechip-stablecoin,0.010797127030761137,41
+Lido,B,aug_2024_selloff_baseline,native-bluechip,0.7031974268044116,120
+Lido,B,aug_2024_selloff_baseline,native-stablecoin,0.20318157817705884,120
+Lido,B,aug_2024_selloff_baseline,bluechip-stablecoin,0.37063748184696305,120
+Lido,B,aug_2024_selloff_baseline,native-other,0.5687066298249264,120
+Lido,B,aug_2024_selloff_window,native-bluechip,0.861723988778797,41
+Lido,B,aug_2024_selloff_window,native-stablecoin,0.17189911639460295,41
+Lido,B,aug_2024_selloff_window,bluechip-stablecoin,0.022896625556553796,41
+Lido,B,aug_2024_selloff_window,native-other,0.8232881739395294,41
+Olympus DAO,C,aug_2024_selloff_baseline,native-bluechip,0.41799919497686283,120
+Olympus DAO,C,aug_2024_selloff_baseline,native-stablecoin,0.4310197639055312,120
+Olympus DAO,C,aug_2024_selloff_baseline,bluechip-stablecoin,0.32244227067574177,120
+Olympus DAO,C,aug_2024_selloff_baseline,native-other,0.4083833022742622,120
+Olympus DAO,C,aug_2024_selloff_window,native-bluechip,0.6881540753148164,41
+Olympus DAO,C,aug_2024_selloff_window,native-stablecoin,0.1986450727288625,41
+Olympus DAO,C,aug_2024_selloff_window,bluechip-stablecoin,0.18870894237455885,41
+Olympus DAO,C,aug_2024_selloff_window,native-other,0.47059335622669113,41
+Ribbon Finance,A,aug_2024_selloff_baseline,native-bluechip,0.5296563248342618,120
+Ribbon Finance,A,aug_2024_selloff_baseline,native-stablecoin,0.24549137067133778,120
+Ribbon Finance,A,aug_2024_selloff_baseline,bluechip-stablecoin,0.3121758168830391,120
+Ribbon Finance,A,aug_2024_selloff_baseline,native-other,0.5018373929620531,120
+Ribbon Finance,A,aug_2024_selloff_window,native-bluechip,0.8006790128972,41
+Ribbon Finance,A,aug_2024_selloff_window,native-stablecoin,0.16945541721375834,41
+Ribbon Finance,A,aug_2024_selloff_window,bluechip-stablecoin,-0.010309711158441917,41
+Ribbon Finance,A,aug_2024_selloff_window,native-other,0.5179645503058905,41
+ShapeShift,A,aug_2024_selloff_baseline,native-bluechip,0.5891979957760768,120
+ShapeShift,A,aug_2024_selloff_baseline,native-stablecoin,0.35016890830609865,120
+ShapeShift,A,aug_2024_selloff_baseline,bluechip-stablecoin,0.36374916737389823,120
+ShapeShift,A,aug_2024_selloff_baseline,native-other,0.547437234811849,120
+ShapeShift,A,aug_2024_selloff_window,native-bluechip,0.78872223983299,41
+ShapeShift,A,aug_2024_selloff_window,native-stablecoin,0.04653360667610368,41
+ShapeShift,A,aug_2024_selloff_window,bluechip-stablecoin,0.20867688711519577,41
+ShapeShift,A,aug_2024_selloff_window,native-other,0.6893234848803379,41
+Aave,A,usdc_depeg_2023_baseline,native-bluechip,0.8317642089874197,21
+Aave,A,usdc_depeg_2023_baseline,native-stablecoin,-0.3403463609114217,21
+Aave,A,usdc_depeg_2023_baseline,bluechip-stablecoin,-0.0753410572287377,21
+Aave,A,usdc_depeg_2023_baseline,native-other,0.8893232295548992,21
+Aave,A,usdc_depeg_2023_window,native-bluechip,0.8740365078831145,13
+Aave,A,usdc_depeg_2023_window,native-stablecoin,0.4189955535947407,13
+Aave,A,usdc_depeg_2023_window,bluechip-stablecoin,0.24666642215566006,13
+Aave,A,usdc_depeg_2023_window,native-other,0.957968984674211,13
+Badger DAO,B,usdc_depeg_2023_baseline,native-bluechip,0.5572613507142559,21
+Badger DAO,B,usdc_depeg_2023_baseline,native-stablecoin,-0.20487478327579148,21
+Badger DAO,B,usdc_depeg_2023_baseline,bluechip-stablecoin,-0.28470098781048286,21
+Badger DAO,B,usdc_depeg_2023_baseline,native-other,0.453129044257249,21
+Badger DAO,B,usdc_depeg_2023_window,native-bluechip,0.9288896694456636,13
+Badger DAO,B,usdc_depeg_2023_window,native-stablecoin,0.33629947308125524,13
+Badger DAO,B,usdc_depeg_2023_window,bluechip-stablecoin,0.29217584692510407,13
+Badger DAO,B,usdc_depeg_2023_window,native-other,0.9082029390463069,13
+Beefy,B,usdc_depeg_2023_baseline,native-bluechip,0.7685512699818887,21
+Beefy,B,usdc_depeg_2023_baseline,native-stablecoin,-0.32500781624082103,21
+Beefy,B,usdc_depeg_2023_baseline,bluechip-stablecoin,-0.27564523034278926,21
+Beefy,B,usdc_depeg_2023_baseline,native-other,0.6983270571039765,21
+Beefy,B,usdc_depeg_2023_window,native-bluechip,0.5906162514036777,13
+Beefy,B,usdc_depeg_2023_window,native-stablecoin,0.21744036009670814,13
+Beefy,B,usdc_depeg_2023_window,bluechip-stablecoin,0.2902330465449092,13
+Beefy,B,usdc_depeg_2023_window,native-other,0.6071727085375483,13
+Compound,A,usdc_depeg_2023_baseline,native-stablecoin,-0.29287139332172757,21
+Compound,A,usdc_depeg_2023_window,native-stablecoin,-0.09223191216118912,13
+Convex Finance,A,usdc_depeg_2023_baseline,native-other,0.8270408303546801,21
+Convex Finance,A,usdc_depeg_2023_window,native-other,0.7767633883051699,13
+ENS,A,usdc_depeg_2023_baseline,native-bluechip,0.8374396701059553,21
+ENS,A,usdc_depeg_2023_baseline,native-stablecoin,-0.3226993935171021,21
+ENS,A,usdc_depeg_2023_baseline,bluechip-stablecoin,-0.14021400022839514,21
+ENS,A,usdc_depeg_2023_baseline,native-other,0.7745707223859298,21
+ENS,A,usdc_depeg_2023_window,native-bluechip,0.7085611356412724,13
+ENS,A,usdc_depeg_2023_window,native-stablecoin,0.3024899524975213,13
+ENS,A,usdc_depeg_2023_window,bluechip-stablecoin,0.2354690004330267,13
+ENS,A,usdc_depeg_2023_window,native-other,0.876752428225943,13
+Gitcoin,A,usdc_depeg_2023_baseline,native-stablecoin,0.019533507410641256,21
+Gitcoin,A,usdc_depeg_2023_baseline,native-other,0.535758768001517,21
+Gitcoin,A,usdc_depeg_2023_window,native-stablecoin,0.34004926230196436,13
+Gitcoin,A,usdc_depeg_2023_window,native-other,0.6869240859432529,13
+Index Coop,A,usdc_depeg_2023_baseline,native-bluechip,0.39773059366872465,21
+Index Coop,A,usdc_depeg_2023_window,native-bluechip,0.7282851652947805,13
+Lido,A,usdc_depeg_2023_baseline,native-bluechip,0.6561398680212093,21
+Lido,A,usdc_depeg_2023_baseline,native-stablecoin,0.33379688899920296,21
+Lido,A,usdc_depeg_2023_baseline,bluechip-stablecoin,0.2917048765718216,21
+Lido,A,usdc_depeg_2023_baseline,native-other,0.588030108238231,21
+Lido,A,usdc_depeg_2023_window,native-bluechip,0.7039701099972824,13
+Lido,A,usdc_depeg_2023_window,native-stablecoin,0.5388267360344609,13
+Lido,A,usdc_depeg_2023_window,bluechip-stablecoin,0.27189647420226565,13
+Lido,A,usdc_depeg_2023_window,native-other,0.8475746082421587,13
+Olympus DAO,C,usdc_depeg_2023_baseline,native-bluechip,0.7392991540429275,21
+Olympus DAO,C,usdc_depeg_2023_baseline,native-stablecoin,0.3038997732636463,21
+Olympus DAO,C,usdc_depeg_2023_baseline,bluechip-stablecoin,0.20946684364218018,21
+Olympus DAO,C,usdc_depeg_2023_baseline,native-other,0.5761998702428054,21
+Olympus DAO,C,usdc_depeg_2023_window,native-bluechip,0.540947218342755,13
+Olympus DAO,C,usdc_depeg_2023_window,native-stablecoin,0.8001309289254553,13
+Olympus DAO,C,usdc_depeg_2023_window,bluechip-stablecoin,0.23013151546223598,13
+Olympus DAO,C,usdc_depeg_2023_window,native-other,0.5909082185567915,13
+Ribbon Finance,A,usdc_depeg_2023_baseline,native-bluechip,0.5811696938042795,21
+Ribbon Finance,A,usdc_depeg_2023_baseline,native-stablecoin,-0.32984407219805706,21
+Ribbon Finance,A,usdc_depeg_2023_baseline,bluechip-stablecoin,-0.1621083709859715,21
+Ribbon Finance,A,usdc_depeg_2023_baseline,native-other,0.4962086655976374,21
+Ribbon Finance,A,usdc_depeg_2023_window,native-bluechip,0.09396717610747383,13
+Ribbon Finance,A,usdc_depeg_2023_window,native-stablecoin,0.12091865507496596,13
+Ribbon Finance,A,usdc_depeg_2023_window,bluechip-stablecoin,0.24541233491900996,13
+Ribbon Finance,A,usdc_depeg_2023_window,native-other,-0.38616910280715877,13
+ShapeShift,A,usdc_depeg_2023_baseline,native-bluechip,0.34688926334001696,21
+ShapeShift,A,usdc_depeg_2023_baseline,native-stablecoin,-0.02544197927229641,21
+ShapeShift,A,usdc_depeg_2023_baseline,bluechip-stablecoin,-0.09989565036373547,21
+ShapeShift,A,usdc_depeg_2023_baseline,native-other,0.28150073624080624,21
+ShapeShift,A,usdc_depeg_2023_window,native-bluechip,0.9468608404297182,13
+ShapeShift,A,usdc_depeg_2023_window,native-stablecoin,0.4063505292848704,13
+ShapeShift,A,usdc_depeg_2023_window,bluechip-stablecoin,0.2227773343990538,13
+ShapeShift,A,usdc_depeg_2023_window,native-other,0.5924163963354762,13

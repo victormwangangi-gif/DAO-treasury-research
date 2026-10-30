@@ -1,0 +1,111 @@
+HYPOTHESIS TEST RESULTS
+Main analysis period: 2023-07-01 to 2026-09-30
+Risk-free rate: FRED DGS3MO (daily)
+Type B+C = diversified and stablecoin-heavy treasuries combined
+
+Main-period archetype counts: {'A': 4, 'B': 6, 'C': 3}
+
+==============================================================================
+PRIMARY (CONFIRMATORY) TEST - H1
+==============================================================================
+  H1: |ES 95%| Type A > Type B+C, main period (one-sided MWU)
+    Type A: n = 4, median = 0.1164   Type B+C: n = 9, median = 0.0792
+    U = 36.0, p = 0.0014 (exact, greater)
+    Cliff's delta = 1.000 (large)
+    Smallest attainable p with these group sizes: 1/715 = 0.0014
+    Decision at alpha = 0.05: REJECT H0 - concentrated treasuries had larger tail losses
+
+==============================================================================
+SECONDARY TESTS (Bonferroni-adjusted within each family)
+==============================================================================
+------------------------------------------------------------------------------
+FAMILY: |ES 95%| across all three archetypes
+------------------------------------------------------------------------------
+  Kruskal-Wallis: H = 8.901, p = 0.0117  (group sizes {'A': 4, 'B': 6, 'C': 3})
+    A vs B: U = 24.0, p = 0.0095, Bonferroni p = 0.0286, delta = 1.000 (large)
+    A vs C: U = 12.0, p = 0.0571, Bonferroni p = 0.1714, delta = 1.000 (large)
+    B vs C: U = 15.0, p = 0.1667, Bonferroni p = 0.5000, delta = 0.667 (large)
+
+------------------------------------------------------------------------------
+FAMILY: Maximum drawdown (H2)
+------------------------------------------------------------------------------
+  H2: |max drawdown| Type A > Type B+C, main period
+    Type A: n = 4, median = 0.9258   Type B+C: n = 9, median = 0.8164
+    U = 33.0, p = 0.0098 (exact, greater), Bonferroni p = 0.0294 (m = 3)
+    Cliff's delta = 0.833 (large)
+    Decision (adjusted, alpha = 0.05): REJECT H0
+
+  |max drawdown| Type A > Type B+C, USDC depeg, 8-20 Mar 2023
+    Type A: n = 9, median = 0.1421   Type B+C: n = 3, median = 0.1215
+    U = 17.0, p = 0.3000 (exact, greater), Bonferroni p = 0.9000 (m = 3)
+    Cliff's delta = 0.259 (small)
+    Decision (adjusted, alpha = 0.05): fail to reject H0
+
+  |max drawdown| Type A > Type B+C, August 2024 sell-off, 1 Aug-10 Sep 2024
+    Type A: n = 6, median = 0.3216   Type B+C: n = 7, median = 0.2154
+    U = 37.0, p = 0.0111 (exact, greater), Bonferroni p = 0.0332 (m = 3)
+    Cliff's delta = 0.762 (large)
+    Decision (adjusted, alpha = 0.05): REJECT H0
+
+------------------------------------------------------------------------------
+FAMILY: Operational runway at event trough (H3)
+------------------------------------------------------------------------------
+  H3: runway at trough Type A < Type B+C, USDC depeg, 8-20 Mar 2023
+    Type A: n = 3, median = 30.4900   Type B+C: n = 2, median = 173.8681
+    U = 2.0, p = 0.4000 (exact, less), Bonferroni p = 0.8000 (m = 2)
+    Cliff's delta = -0.333 (medium)
+    Decision (adjusted, alpha = 0.05): fail to reject H0
+
+  H3: runway at trough Type A < Type B+C, August 2024 sell-off, 1 Aug-10 Sep 2024
+    Type A: n = 2, median = 80.5248   Type B+C: n = 3, median = 40.4165
+    U = 2.0, p = 0.4000 (exact, less), Bonferroni p = 0.8000 (m = 2)
+    Cliff's delta = -0.333 (medium)
+    Decision (adjusted, alpha = 0.05): fail to reject H0
+
+------------------------------------------------------------------------------
+FAMILY: Event-window return (incl. H5)
+------------------------------------------------------------------------------
+  Event return Type A < Type B+C, USDC depeg, 8-20 Mar 2023
+    Type A: n = 9, median = 0.0103   Type B+C: n = 3, median = 0.0848
+    U = 6.0, p = 0.1045 (exact, less), Bonferroni p = 0.2091 (m = 2)
+    Cliff's delta = -0.556 (large)
+    Decision (adjusted, alpha = 0.05): fail to reject H0
+
+  Event return Type A < Type B+C, August 2024 sell-off, 1 Aug-10 Sep 2024
+    Type A: n = 6, median = -0.2997   Type B+C: n = 7, median = -0.0307
+    U = 7.0, p = 0.0256 (exact, less), Bonferroni p = 0.0513 (m = 2)
+    Cliff's delta = -0.667 (large)
+    Decision (adjusted, alpha = 0.05): fail to reject H0
+
+  H5 not run: only 1 Type C protocol(s) before the USDC event (needs >= 3). Report descriptively:
+    Convex Finance     Type A  return -0.0394  USDC share 0.0%
+    ShapeShift         Type A  return -0.0333  USDC share 12.2%
+    Lido               Type A  return -0.0146  USDC share 0.0%
+    Compound           Type A  return +0.0009  USDC share 0.0%
+    Index Coop         Type A  return +0.0103  USDC share 0.0%
+    Olympus DAO        Type C  return +0.0192  USDC share 10.3%
+    Aave               Type A  return +0.0359  USDC share 7.5%
+    Gitcoin            Type A  return +0.0486  USDC share 10.4%
+    ENS                Type A  return +0.0528  USDC share 1.7%
+    Badger DAO         Type B  return +0.0848  USDC share 12.1%
+    Beefy              Type B  return +0.1005  USDC share 11.8%
+    Ribbon Finance     Type A  return +0.1356  USDC share 6.0%
+
+------------------------------------------------------------------------------
+FAMILY: Sharpe ratio
+------------------------------------------------------------------------------
+  Sharpe Type A < Type B+C, main period
+    Type A: n = 4, median = -0.3383   Type B+C: n = 9, median = -0.2521
+    U = 13.0, p = 0.2517 (exact, less), Bonferroni p = 0.2517 (m = 1)
+    Cliff's delta = -0.278 (small)
+    Decision (adjusted, alpha = 0.05): fail to reject H0
+
+==============================================================================
+ROBUSTNESS
+==============================================================================
+  OLS: |ES 95%| = b0 + b1*TypeA + b2*ln(peak size)   (HC3 errors, n = 13)
+    const         coef = +0.08344   se = 0.11563   z = +0.72   p = 0.4705
+    type_A        coef = +0.04707   se = 0.01997   z = +2.36   p = 0.0184
+    ln_peak_size  coef = -0.00071   se = 0.00624   z = -0.11   p = 0.9094
+    R-squared = 0.453
+  Spearman rho (native share vs |ES 95%|) = 0.863, p = 0.0001, n = 13

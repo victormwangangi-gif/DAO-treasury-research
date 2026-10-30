@@ -1,0 +1,4 @@
+archetype,n,median_abs_es_95,median_max_drawdown,median_sharpe,median_ann_vol,median_total_return
+A,4,0.1164,-0.9258,-0.3383,0.9844,-0.574
+B,6,0.0848,-0.8294,-0.2546,0.7092,-0.3914
+C,3,0.0353,-0.461,-0.0868,0.2986,0.0643

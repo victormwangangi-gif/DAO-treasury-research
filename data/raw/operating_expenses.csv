@@ -1,0 +1,26 @@
+protocol,event,monthly_opex_usd,basis,source
+Aave,aug_2024_selloff,,EXCLUDED: No consolidated DAO operating budget found for mid-2024; nearest is TokenLogic Oct 2023 plan (~$6m stablecoins for 6 months) which does not cover the event,
+Arbitrum DAO,aug_2024_selloff,,EXCLUDED: DAO spending is dominated by incentive programmes (STIP/LTIPP); no separate operating budget,
+Badger DAO,aug_2024_selloff,,EXCLUDED: No published operating budget found,
+Beefy,aug_2024_selloff,,EXCLUDED: Contributor-compensation record does not cover 2024,
+Compound,aug_2024_selloff,,EXCLUDED: Costs spread across separate service-provider contracts; no consolidated budget found,
+Convex Finance,aug_2024_selloff,,EXCLUDED: No published operating budget (team not funded through DAO proposals),
+ENS,aug_2024_selloff,816791.67,"ENS Labs stream 11,500 USDC/day + Service Provider streams $3.6m/yr (from Feb 2024) + working-group spending $501k in Q3 2024 / 3",https://docs.ens.domains/dao/proposals/5.22 ; https://docs.ens.domains/dao/proposals/5.2 ; https://discuss.ens.domains/t/term-5-working-group-spending-summary-2024-q3/19807
+Gitcoin,aug_2024_selloff,469706.0,Actual operational expenses for August 2024 (DAO financial report),https://gov.gitcoin.co/t/dao-financial-report-august-2024/19436
+Index Coop,aug_2024_selloff,,"EXCLUDED: Latest figure found is Q4 2023 payroll ($199,768/mo); none for mid-2024",
+Lido,aug_2024_selloff,4100000.0,"Lido Contributors Group grant 24.6m DAI for Jul-Dec 2024 / 6; excludes 180k LDO and the 7.1m Liquidity Observation Lab (liquidity incentives, not operations)",https://research.lido.fi/t/egg-st2024-v2-continuity-grant-funding-to-achieve-goose-goals/7697
+Olympus DAO,aug_2024_selloff,74000.0,OIP-155 2024 budget: expected disbursements $888k / 12 (excludes $541k legal contingency); CHECK whether other 2024 team funding exists outside OIP-155,https://forum.olympusdao.finance/d/4127-oip-155-2024-budget-proposal
+Ribbon Finance,aug_2024_selloff,,EXCLUDED: No published operating budget found,
+ShapeShift,aug_2024_selloff,180383.33,"Sum of 2024 workstream budgets (USDC + FOX): Operations $22,000/mo (Feb-Jul 2024) + Engineering $619,700 for Apr-Sep 2024 / 6 + Product $43,500/mo (Mar-Aug 2024) + Moderation $11,600/mo; other workstreams, if any, not found",https://forum.shapeshift.com/t/rfc-scp-tbd-renewing-the-operations-workstream-feb-july-2024/2918 ; https://forum.shapeshift.com/t/ideation-scp-175-engineering-workstream-renewal-april-1-sept-30-2024/2987 ; https://forum.shapeshift.com/t/ideation-scp-168-product-workstream-renewal-march-2024-august-2024/2946 ; https://forum.shapeshift.com/t/moderation-workstream-renewal-july-dec-2024/3021
+Aave,usdc_depeg_2023,,EXCLUDED: No consolidated DAO operating budget found for early 2023 (service-provider contracts only),
+Badger DAO,usdc_depeg_2023,,EXCLUDED: No published operating budget found,
+Beefy,usdc_depeg_2023,34800.0,"Recurring contributor compensation $104,400 for Feb-Apr 2023 / 3; contributor pay only (hosting/sponsorships not published)",https://docs.beefy.finance/dao/contributor-compensation
+Compound,usdc_depeg_2023,,EXCLUDED: Costs spread across separate service-provider contracts; no consolidated budget found,
+Convex Finance,usdc_depeg_2023,,EXCLUDED: No published operating budget (team not funded through DAO proposals),
+ENS,usdc_depeg_2023,616458.33,"ENS Labs stream 11,500 USDC/day (x365/12) + working-group spending $1.6m for Jan-Jun 2023 / 6",https://blockworks.co/news/ens-daos-eth-sale-creates-runway ; https://discuss.ens.domains/t/spending-summary-working-groups-term-1-2023/17374
+Gitcoin,usdc_depeg_2023,,EXCLUDED: Monthly financial reports start Jul 2023; no figure for Q1 2023 found,
+Index Coop,usdc_depeg_2023,191000.0,"Stated monthly burn rate ~$191,000 in the Q1 2023 update",https://gov.indexcoop.com/t/index-coop-q1-2023-update/4554
+Lido,usdc_depeg_2023,1873769.33,"Approved stablecoin budget 11,242,616 DAI for Nov 2022-Apr 2023 / 6 months; excludes 397,726 LDO paid in native token",https://research.lido.fi/t/lido-1-november-1-2022-april-30-2023-lido-ongoing-funding-request/3133
+Olympus DAO,usdc_depeg_2023,498333.33,2023 DAO budget $5.98m / 12 (budgeted; the DAO reports executing it ~15% under budget),https://forum.olympusdao.finance/d/4118-2024-budget-proposal
+Ribbon Finance,usdc_depeg_2023,,EXCLUDED: No published operating budget found,
+ShapeShift,usdc_depeg_2023,,EXCLUDED: Early-2023 workstream budgets not compiled (only 2024 found),

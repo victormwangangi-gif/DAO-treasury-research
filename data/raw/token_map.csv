@@ -1,0 +1,117 @@
+asset_symbol,protocol,component,weight,asset_class,coingecko_id,price_method,note
+AEVO,Ribbon Finance,,1,native,aevo-exchange,market,RBN migrated to AEVO in 2024; AEVO is Ribbon's native token after the merger
+TFOX,ShapeShift,,1,native,shapeshift-fox-token,calibrated,FOX deposited in a Tokemak reactor (1:1 with FOX)
+MOOBIFI,Beefy,,1,native,beefy-finance,calibrated,Beefy vault of staked BIFI
+GOHM,Olympus DAO,,1,native,governance-ohm,market,gOHM is wrapped OHM - native for Olympus
+WETH/FOX UNI-V2,ShapeShift,FOX,0.5,native,shapeshift-fox-token,calibrated,Uniswap v2 FOX/ETH LP - split 50/50
+WETH/FOX UNI-V2,ShapeShift,ETH,0.5,bluechip,ethereum,calibrated,Uniswap v2 FOX/ETH LP - split 50/50
+FOX-WETH-UNI-V2,ShapeShift,FOX,0.5,native,shapeshift-fox-token,calibrated,Uniswap v2 FOX/ETH LP - split 50/50
+FOX-WETH-UNI-V2,ShapeShift,ETH,0.5,bluechip,ethereum,calibrated,Uniswap v2 FOX/ETH LP - split 50/50
+50RETH-50BADGER,Badger DAO,BADGER,0.5,native,badger-dao,calibrated,Balancer 50/50 rETH/BADGER POL
+50RETH-50BADGER,Badger DAO,RETH,0.5,bluechip,ethereum,calibrated,Balancer 50/50 rETH/BADGER POL
+CVXBADGERFRAX-F,Badger DAO,BADGER,0.5,native,badger-dao,calibrated,Convex-staked Curve BADGER/FRAXBP POL
+CVXBADGERFRAX-F,Badger DAO,FRAXBP,0.5,stablecoin,usd-coin,calibrated,Convex-staked Curve BADGER/FRAXBP POL
+50OHM-50DAI,Olympus DAO,OHM,0.5,native,olympus,calibrated,Balancer 50/50 OHM/DAI POL
+50OHM-50DAI,Olympus DAO,DAI,0.5,stablecoin,dai,calibrated,Balancer 50/50 OHM/DAI POL
+50OHM-50WETH,Olympus DAO,OHM,0.5,native,olympus,calibrated,Balancer 50/50 OHM/WETH POL
+50OHM-50WETH,Olympus DAO,ETH,0.5,bluechip,ethereum,calibrated,Balancer 50/50 OHM/WETH POL
+50RBN-50USDC,Ribbon Finance,RBN,0.5,native,ribbon-finance,calibrated,Balancer 50/50 RBN/USDC POL
+50RBN-50USDC,Ribbon Finance,USDC,0.5,stablecoin,usd-coin,calibrated,Balancer 50/50 RBN/USDC POL
+B-80BAL-20WETH,,BAL,0.8,other,balancer,calibrated,Balancer 80/20 BAL/WETH LP
+B-80BAL-20WETH,,ETH,0.2,bluechip,ethereum,calibrated,Balancer 80/20 BAL/WETH LP
+CRVFRAX,,FRAX,0.5,stablecoin,frax,calibrated,Curve FRAX/USDC LP
+CRVFRAX,,USDC,0.5,stablecoin,usd-coin,calibrated,Curve FRAX/USDC LP
+MOOBALANCERBASEWABASGHO/WABASUSDC,,GHO,0.5,stablecoin,gho,calibrated,Beefy vault of Balancer GHO/USDC LP on Base
+MOOBALANCERBASEWABASGHO/WABASUSDC,,USDC,0.5,stablecoin,usd-coin,calibrated,Beefy vault of Balancer GHO/USDC LP on Base
+CVXCVXCRV-CRV-F,,,1,other,curve-dao-token,calibrated,Convex-staked Curve cvxCRV/CRV LP - tracks CRV
+STKCVXCRV,,,1,other,curve-dao-token,calibrated,Staked cvxCRV - tracks CRV
+CVXFXN-FXN-F,,,1,other,fxn-token,calibrated,Convex-staked Curve cvxFXN/FXN LP - tracks FXN
+FRXETHCVX-F,,,1,bluechip,ethereum,calibrated,Convex-staked Curve frxETH/ETH LP
+SUSDE,,,1,stablecoin,ethena-usde,calibrated,Staked USDe (synthetic dollar) - CHECK classification
+AETHUSDE,,,1,stablecoin,ethena-usde,calibrated,Aave v3 USDe
+AETHSUSDE,,,1,stablecoin,ethena-usde,calibrated,Aave v3 sUSDe
+SDAI,,,1,stablecoin,dai,calibrated,Savings DAI
+SUSDS,,,1,stablecoin,usds,calibrated,Savings USDS
+AETHUSDS,,,1,stablecoin,usds,calibrated,Aave v3 USDS
+CRVUSD,,,1,stablecoin,usd-coin,calibrated,crvUSD
+AETHLIDOGHO,,,1,stablecoin,gho,calibrated,Aave v3 Lido-market GHO
+STKGHO,,,1,stablecoin,gho,calibrated,Staked GHO (Aave safety module)
+ABASUSDC,,,1,stablecoin,usd-coin,calibrated,Aave v3 Base USDC
+AARBUSDCN,,,1,stablecoin,usd-coin,calibrated,Aave v3 Arbitrum native USDC
+AETHUSDC,,,1,stablecoin,usd-coin,calibrated,Aave v3 USDC
+AOPTUSDCN,,,1,stablecoin,usd-coin,calibrated,Aave v3 Optimism native USDC
+AOPTUSDC,,,1,stablecoin,usd-coin,calibrated,Aave v3 Optimism USDC
+AAVAUSDC,,,1,stablecoin,usd-coin,calibrated,Aave v3 Avalanche USDC
+APOLUSDC,,,1,stablecoin,usd-coin,calibrated,Aave v3 Polygon USDC
+AUSDC,,,1,stablecoin,usd-coin,calibrated,Aave v2 USDC
+AMUSDC,,,1,stablecoin,usd-coin,calibrated,Aave v2 Polygon USDC
+AVUSDC,,,1,stablecoin,usd-coin,calibrated,Aave v2 Avalanche USDC
+AVALANCHEUSDC,,,1,stablecoin,usd-coin,calibrated,USDC on Avalanche
+CUSDCV3,,,1,stablecoin,usd-coin,calibrated,Compound v3 USDC (1:1)
+CUSDC,,,1,stablecoin,usd-coin,calibrated,Compound v2 cUSDC (calibration handles the exchange rate)
+FUSDC,,,1,stablecoin,usd-coin,calibrated,Fluid USDC
+KPK_USDC_PRIMEV2,,,1,stablecoin,usd-coin,calibrated,karpatkey USDC vault
+SUSDC,,,1,stablecoin,usd-coin,calibrated,Savings USDC
+USDGLO,,,1,stablecoin,usd-coin,calibrated,Glo Dollar (fiat-backed)
+AETHRLUSD,,,1,stablecoin,usd-coin,calibrated,Aave v3 RLUSD (Ripple USD)
+USDAI,,,1,stablecoin,usd-coin,calibrated,USD.AI synthetic dollar - CHECK classification
+USTBL,,,1,stablecoin,usd-coin,calibrated,Spiko tokenised US T-bill fund - CHECK classification
+ICSMMT,,,1,stablecoin,usd-coin,calibrated,Index Coop Money Market Index (basket of stablecoin lending positions)
+AETHUSDT,,,1,stablecoin,tether,calibrated,Aave v3 USDT
+AAVAUSDT,,,1,stablecoin,tether,calibrated,Aave v3 Avalanche USDT
+AARBUSDT,,,1,stablecoin,tether,calibrated,Aave v3 Arbitrum USDT
+APOLUSDT,,,1,stablecoin,tether,calibrated,Aave v3 Polygon USDT
+AUSDT,,,1,stablecoin,tether,calibrated,Aave v2 USDT
+AMUSDT,,,1,stablecoin,tether,calibrated,Aave v2 Polygon USDT
+VUSDT,,,1,stablecoin,tether,calibrated,Venus USDT (calibration handles the exchange rate)
+ADAI,,,1,stablecoin,dai,calibrated,Aave v2 DAI
+AMDAI,,,1,stablecoin,dai,calibrated,Aave v2 Polygon DAI
+AAVADAI,,,1,stablecoin,dai,calibrated,Aave v3 Avalanche DAI
+AVDAI,,,1,stablecoin,dai,calibrated,Aave v2 Avalanche DAI
+AETHDAI,,,1,stablecoin,dai,calibrated,Aave v3 DAI
+CDAI,,,1,stablecoin,dai,calibrated,Compound v2 cDAI (calibration handles the exchange rate)
+EUROC,,,1,stablecoin,euro-coin,calibrated,Euro stablecoin (old ticker of EURC)
+EURC,,,1,stablecoin,euro-coin,calibrated,Euro stablecoin
+CBBTC,,,1,bluechip,bitcoin,calibrated,Coinbase wrapped BTC
+EBTC,,,1,bluechip,bitcoin,calibrated,BTC-pegged token
+AETHWBTC,,,1,bluechip,bitcoin,calibrated,Aave v3 WBTC
+AWBTC,,,1,bluechip,bitcoin,calibrated,Aave v2 WBTC
+TWETH,,,1,bluechip,ethereum,calibrated,WETH receipt token (likely Tokemak tWETH) - CHECK
+AETHWETH,,,1,bluechip,ethereum,calibrated,Aave v3 WETH
+AARBWETH,,,1,bluechip,ethereum,calibrated,Aave v3 Arbitrum WETH
+AWETH,,,1,bluechip,ethereum,calibrated,Aave v2 WETH
+AETHWSTETH,,,1,bluechip,ethereum,calibrated,Aave v3 wstETH
+AETHLIDOWETH,,,1,bluechip,ethereum,calibrated,Aave v3 Lido-market WETH
+AETHWEETH,,,1,bluechip,ethereum,calibrated,Aave v3 weETH
+ETHX,,,1,bluechip,ethereum,calibrated,Stader ETHx (liquid staking token)
+SFRXETH,,,1,bluechip,ethereum,calibrated,Staked frxETH (liquid staking token)
+WEETH,,,1,bluechip,ethereum,calibrated,ether.fi weETH (liquid staking token)
+OP,,,1,other,optimism,market,
+FTM,,,1,other,fantom,market,
+DEGEN,,,1,other,degen-base,market,
+RAD,,,1,other,radicle,market,
+AKITA,,,1,other,akita-inu,market,
+INST,,,1,other,instadapp,market,
+FLUID,,,1,other,instadapp,calibrated,FLUID is the renamed INST token
+WBNB,,,1,other,binancecoin,calibrated,Wrapped BNB
+SAGA,,,1,other,saga-2,market,CHECK id if prices fail
+OCEAN,,,1,other,ocean-protocol,market,
+FXN,,,1,other,fxn-token,market,
+MASK,,,1,other,mask-network,market,
+ENJ,,,1,other,enjincoin,market,
+GNO,,,1,other,gnosis,market,
+SILO,,,1,other,silo-finance,market,
+WOO,,,1,other,woo-network,market,
+ATOM,,,1,other,cosmos,market,
+REQ,,,1,other,request-network,market,
+AAMPL,,,1,other,ampleforth,calibrated,Aave v2 AMPL
+ACRV,,,1,other,curve-dao-token,calibrated,Aave v2 CRV
+AAVAWAVAX,,,1,other,avalanche-2,calibrated,Aave v3 WAVAX
+STSOL,,,1,other,solana,calibrated,Lido staked SOL
+ABSHIBA.COM,,,1,other,,exclude,Spam airdrop token (name is a website) - excluded
+CVXCRV,,,1,other,curve-dao-token,calibrated,Convex cvxCRV - tracks CRV
+WMATIC,,,1,other,matic-network,calibrated,Wrapped MATIC (no price after the 2025 POL migration)
+BIFI-WETH-SLP,Beefy,BIFI,0.5,native,beefy-finance,calibrated,SushiSwap BIFI/WETH POL - split 50/50
+BIFI-WETH-SLP,Beefy,ETH,0.5,bluechip,ethereum,calibrated,SushiSwap BIFI/WETH POL - split 50/50
+YVUSDC,,,1,stablecoin,usd-coin,calibrated,Yearn USDC vault
+WAVAX,,,1,other,avalanche-2,calibrated,Wrapped AVAX

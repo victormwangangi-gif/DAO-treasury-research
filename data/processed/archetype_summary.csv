@@ -1,0 +1,14 @@
+protocol,archetype,archetype_label,native_pct,stablecoin_pct,bluechip_pct,other_pct,n_snapshots,peak_nav_usd,archetype_changes,stable_archetype
+Arbitrum DAO,A,Native-token-concentrated,0.9769,0.005,0.0181,0.0,14,7981134770.958071,,yes
+Convex Finance,A,Native-token-concentrated,0.8615,0.0043,0.0422,0.092,14,78116125.24853253,,yes
+ENS,A,Native-token-concentrated,0.8461,0.0437,0.1101,0.0,14,3383748973.5921106,,yes
+Ribbon Finance,A,Native-token-concentrated,0.8215,0.0387,0.1363,0.0035,14,794537232.5032905,A->B at Q4-2025,NO
+Aave,B,Diversified,0.6311,0.2277,0.1123,0.0289,14,357162284.62615573,B->A at Q4-2023; A->B at Q1-2024; B->A at Q4-2024; A->B at Q1-2025; B->A at Q3-2026,NO
+Badger DAO,B,Diversified,0.4446,0.0736,0.4733,0.0085,14,56329687.48044687,,yes
+Compound,B,Diversified,0.5896,0.0101,0.3996,0.0006,14,199294505.99068573,A->B at Q3-2025,NO
+Gitcoin,B,Diversified,0.3655,0.1671,0.3202,0.1472,14,112429009.31079873,B->C at Q1-2025; C->B at Q2-2025; B->C at Q1-2026; C->B at Q2-2026,NO
+Lido,B,Diversified,0.5214,0.0772,0.3981,0.0032,14,540434112.6798365,A->B at Q1-2024,NO
+ShapeShift,B,Diversified,0.6901,0.1869,0.1163,0.0067,14,32398913.870397083,A->B at Q1-2025; B->C at Q2-2026; C->B at Q3-2026,NO
+Beefy,C,Stablecoin-heavy,0.0757,0.4951,0.3125,0.1167,14,6294065.134639881,,yes
+Index Coop,C,Stablecoin-heavy,0.5892,0.4107,0.0001,0.0,14,20595382.82766616,C->A at Q4-2023; A->B at Q2-2024; B->A at Q3-2024; A->C at Q1-2025; C->B at Q2-2025; B->C at Q4-2025; C->B at Q3-2026,NO
+Olympus DAO,C,Stablecoin-heavy,0.282,0.7046,0.0097,0.0037,14,314794252.58008975,C->B at Q2-2026; B->A at Q3-2026,NO
