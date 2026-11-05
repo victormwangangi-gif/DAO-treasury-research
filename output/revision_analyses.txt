@@ -1,0 +1,111 @@
+1. STAND-ALONE TAIL RISK, 1 Jul 2023 - 30 Sep 2026
+  Native tokens (13): |ES 95%| median 0.1173, range 0.0560-0.1475; vol median 1.029, range 0.513-2.102
+  ETH                              |ES 95%| 0.0765  vol 0.645
+  BTC                              |ES 95%| 0.0536  vol 0.461
+  ETH/BTC 75/25                    |ES 95%| 0.0693  vol 0.582
+  Stablecoin mix (USDC/USDT/DAI)   |ES 95%| 0.0016  vol 0.012
+  Native vs ETH/BTC daily correlation: median 0.61
+  Native weight 50% (rest ETH/BTC): native share of portfolio variance 66.9%
+  Native weight 60% (rest ETH/BTC): native share of portfolio variance 76.8%
+  Native weight 70% (rest ETH/BTC): native share of portfolio variance 84.7%
+  Native weight 80% (rest ETH/BTC): native share of portfolio variance 91.1%
+  Stablecoin weight 30% (rest median native/ETH-BTC 50/50): portfolio vol reduced by 30%
+  Stablecoin weight 40% (rest median native/ETH-BTC 50/50): portfolio vol reduced by 40%
+  Stablecoin weight 50% (rest median native/ETH-BTC 50/50): portfolio vol reduced by 50%
+
+2. BOOTSTRAP (stationary, mean block 10 days, 2000 joint resamples)
+  Arbitrum DAO     A  |ES| 0.1097  95% CI 0.0962-0.1244
+  Convex Finance   A  |ES| 0.1230  95% CI 0.1046-0.1408
+  ENS              A  |ES| 0.1028  95% CI 0.0868-0.1196
+  Ribbon Finance   A  |ES| 0.1273  95% CI 0.1097-0.1441
+  Aave             B  |ES| 0.0716  95% CI 0.0622-0.0818
+  Badger DAO       B  |ES| 0.0750  95% CI 0.0626-0.0888
+  Compound         B  |ES| 0.0915  95% CI 0.0785-0.1040
+  Gitcoin          B  |ES| 0.0792  95% CI 0.0682-0.0916
+  Lido             B  |ES| 0.0903  95% CI 0.0787-0.1011
+  ShapeShift       B  |ES| 0.0967  95% CI 0.0829-0.1093
+  Beefy            C  |ES| 0.0353  95% CI 0.0301-0.0408
+  Index Coop       C  |ES| 0.0830  95% CI 0.0700-0.0967
+  Olympus DAO      C  |ES| 0.0114  95% CI 0.0086-0.0140
+  H1 one-sided exact MWU across resamples: p <= 0.05 in 100.0%; median p 0.0014; 95th percentile p 0.0056
+  Complete separation (every A above every B/C) in 75.2% of resamples
+
+3. MODIFIED SHARPE RATIO (Israelsen, 2005)
+  Arbitrum DAO     A  Sharpe -0.58  modified -0.533
+  Convex Finance   A  Sharpe -0.18  modified -0.200
+  ENS              A  Sharpe -0.07  modified -0.063
+  Ribbon Finance   A  Sharpe -0.50  modified -0.509
+  Aave             B  Sharpe +0.34  modified +0.344
+  Badger DAO       B  Sharpe -0.28  modified -0.112
+  Compound         B  Sharpe -0.26  modified -0.155
+  Gitcoin          B  Sharpe -0.46  modified -0.183
+  Lido             B  Sharpe -0.25  modified -0.152
+  ShapeShift       B  Sharpe -0.24  modified -0.228
+  Beefy            C  Sharpe -0.09  modified -0.008
+  Index Coop       C  Sharpe -0.32  modified -0.199
+  Olympus DAO      C  Sharpe +0.78  modified +0.777
+  H3 one-sided MWU A < B+C: medians -0.354 vs -0.152, U = 7.0, p = 0.0531, Cliff's delta = -0.61
+
+4. EVENT RETURNS RELATIVE TO A 75/25 ETH/BTC BENCHMARK (buy and hold from the pre-event day)
+  usdc_depeg_2023: benchmark log return +0.1591; median excess A -0.1488 (n=9) vs B+C -0.0743 (n=3); U = 6.0, p = 0.1045, Bonferroni (m=2) p = 0.2091, delta = -0.56
+  aug_2024_selloff: benchmark log return -0.2814; median excess A -0.0182 (n=6) vs B+C +0.2508 (n=7); U = 7.0, p = 0.0256, Bonferroni (m=2) p = 0.0513, delta = -0.67
+    aug_2024_selloff  Arbitrum DAO     A  raw -0.259  excess +0.022
+    aug_2024_selloff  Compound         A  raw -0.232  excess +0.050
+    aug_2024_selloff  Convex Finance   A  raw -0.333  excess -0.051
+    aug_2024_selloff  ENS              A  raw -0.435  excess -0.153
+    aug_2024_selloff  Ribbon Finance   A  raw -0.303  excess -0.022
+    aug_2024_selloff  ShapeShift       A  raw -0.296  excess -0.014
+    aug_2024_selloff  Aave             B  raw +0.152  excess +0.434
+    aug_2024_selloff  Badger DAO       B  raw -0.194  excess +0.088
+    aug_2024_selloff  Gitcoin          B  raw -0.281  excess +0.000
+    aug_2024_selloff  Index Coop       B  raw +0.134  excess +0.415
+    aug_2024_selloff  Lido             B  raw -0.377  excess -0.096
+    aug_2024_selloff  Beefy            C  raw -0.031  excess +0.251
+    aug_2024_selloff  Olympus DAO      C  raw +0.035  excess +0.316
+    usdc_depeg_2023   Aave             A  raw +0.036  excess -0.123
+    usdc_depeg_2023   Compound         A  raw +0.001  excess -0.158
+    usdc_depeg_2023   Convex Finance   A  raw -0.039  excess -0.199
+    usdc_depeg_2023   ENS              A  raw +0.053  excess -0.106
+    usdc_depeg_2023   Gitcoin          A  raw +0.049  excess -0.111
+    usdc_depeg_2023   Index Coop       A  raw +0.010  excess -0.149
+    usdc_depeg_2023   Lido             A  raw -0.015  excess -0.174
+    usdc_depeg_2023   Ribbon Finance   A  raw +0.136  excess -0.023
+    usdc_depeg_2023   ShapeShift       A  raw -0.033  excess -0.192
+    usdc_depeg_2023   Badger DAO       B  raw +0.085  excess -0.074
+    usdc_depeg_2023   Beefy            B  raw +0.100  excess -0.059
+    usdc_depeg_2023   Olympus DAO      C  raw +0.019  excess -0.140
+
+5. RUNWAY (Index Coop March 2023 artefact dropped)
+  aug_2024_selloff  Olympus DAO      C     2450.8 months  log10  3.39  rank 1
+  aug_2024_selloff  ENS              A      152.6 months  log10  2.18  rank 2
+  aug_2024_selloff  Gitcoin          B       40.4 months  log10  1.61  rank 3
+  aug_2024_selloff  Lido             B       24.5 months  log10  1.39  rank 4
+  aug_2024_selloff  ShapeShift       A        8.5 months  log10  0.93  rank 5
+  usdc_depeg_2023   Olympus DAO      C      335.8 months  log10  2.53  rank 1
+  usdc_depeg_2023   ENS              A      161.3 months  log10  2.21  rank 2
+  usdc_depeg_2023   Lido             A       30.5 months  log10  1.48  rank 3
+  usdc_depeg_2023   Beefy            B       11.9 months  log10  1.08  rank 4
+
+6. HOLD-OUT TEST (bands fixed; budget = half the Type A median |ES 95%| of the calibration period)
+  Budget rule: half the median Type A |ES 95%|. Full period: 0.0582; calibration period: 0.0560
+  Calibration (Jul 2023-Dec 2024): observed medians A 0.1120 B 0.0869 C 0.0394; in-band |ES| range 0.0353-0.0556 (worst (30, 40, 30)); target 40/40/20 0.0449; all within calibration budget 0.0560: True
+  Hold-out (Jan 2025-Sep 2026): observed medians A 0.1211 B 0.0780 C 0.0313; in-band |ES| range 0.0378-0.0579 (worst (30, 40, 30)); target 40/40/20 0.0476; all within calibration budget 0.0560: False
+
+7. TRADING-COST SENSITIVITY (full period; cost per unit traded at each quarterly reset;
+   ETH/BTC and stablecoins 0.1%; native token as shown)
+  Framework target (40/40/20)            native cost   0%: |ES| 0.0470  total return +0.339  max DD 0.519
+  Framework target (40/40/20)            native cost   1%: |ES| 0.0470  total return +0.334  max DD 0.520
+  Framework target (40/40/20)            native cost   2%: |ES| 0.0470  total return +0.330  max DD 0.520
+  Framework target (40/40/20)            native cost   5%: |ES| 0.0470  total return +0.316  max DD 0.523
+  Most exposed permitted (30/40/30)      native cost   0%: |ES| 0.0580  total return +0.240  max DD 0.615
+  Most exposed permitted (30/40/30)      native cost   1%: |ES| 0.0580  total return +0.235  max DD 0.616
+  Most exposed permitted (30/40/30)      native cost   2%: |ES| 0.0580  total return +0.229  max DD 0.618
+  Most exposed permitted (30/40/30)      native cost   5%: |ES| 0.0580  total return +0.205  max DD 0.623
+  Most defensive permitted (50/40/10)    native cost   0%: |ES| 0.0366  total return +0.429  max DD 0.414
+  Most defensive permitted (50/40/10)    native cost   1%: |ES| 0.0366  total return +0.423  max DD 0.414
+  Most defensive permitted (50/40/10)    native cost   2%: |ES| 0.0366  total return +0.418  max DD 0.414
+  Most defensive permitted (50/40/10)    native cost   5%: |ES| 0.0366  total return +0.409  max DD 0.417
+  One-off transition cost of moving a treasury from 80% to 20% native at the native cost rates:
+    1% impact: 0.6% of treasury value
+    2% impact: 1.2% of treasury value
+    5% impact: 3.0% of treasury value

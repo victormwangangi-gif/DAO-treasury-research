@@ -5,7 +5,7 @@ Code and data for the research project of the same name, by Victor Kilonzo Mwang
 
 The study builds a daily value series for the treasuries of 13 DAOs from July 2023 to
 September 2026. It classifies each treasury as native-token-concentrated (Type A),
-diversified (Type B) or stablecoin-heavy (Type C), and tests whether concentration was
+partially diversified (Type B) or stablecoin-heavy (Type C), and tests whether concentration was
 associated with greater downside risk. It then calibrates a Three-Tier Treasury Framework
 by simulation and validates it on Aave and ENS.
 
@@ -54,7 +54,8 @@ Run the scripts from inside the `scripts` folder, in this order:
 | 3 | `03_compute_metrics.py` | Risk metrics, event studies, runway and all hypothesis tests | 3.5–3.7, Ch. 4 |
 | 4 | `04_robustness_and_figures.py` | Robustness checks and Figures 2–7 | 4.7 |
 | 5 | `05_framework_calibration.py` | Simulates 231 tier mixes to calibrate the framework; builds the Aave/ENS validation data | 5.2, 5.3 |
-| 6 | `06_validation_and_figures.py` | Distance from the bands, validation correlations, and Figures 8–9 | 5.3 |
+| 6 | `06_validation_and_figures.py` | Distance from the bands, correlations for the Aave/ENS application, and Figures 8–9 | 5.3 |
+| 7 | `07_revision_analyses.py` | Stand-alone asset risk, bootstrap confidence intervals, modified Sharpe ratio (H₃), benchmark-adjusted event returns, runway ranks, hold-out test and trading-cost sensitivity (Tables 4, 5, 7, 8, 14, 15) | 3.4–3.7, 4.3–4.7, 5.2 |
 
 Note that `01b` runs before `00d`, because the backfill reads the extracted composition.
 
@@ -76,6 +77,7 @@ extraction later may give slightly different holdings. The processed files in
 
 | File | Figure in the paper |
 |---|---|
+| `conceptual_framework.png` | Figure 1 |
 | `fig4_1_composition.png` | Figure 2 |
 | `fig4_2_value_index.png` | Figure 3 |
 | `fig4_3_tail_loss.png` | Figure 4 |

@@ -60,7 +60,7 @@ EVENTS = {"usdc_depeg_2023": ("USDC depeg", pd.Timestamp("2023-03-08"), pd.Times
 COL = {"A": "#eb6834", "B": "#2a78d6", "C": "#1baf7a"}
 MARK = {"A": "o", "B": "s", "C": "^"}          # shape = second channel (print / colour-blind)
 CLASS_COL = {"native": "#eb6834", "bluechip": "#2a78d6", "stablecoin": "#1baf7a", "other": "#a3a29b"}
-LABEL = {"A": "Type A: native-concentrated", "B": "Type B: diversified", "C": "Type C: stablecoin-heavy"}
+LABEL = {"A": "Type A: native-concentrated", "B": "Type B: partially diversified", "C": "Type C: stablecoin-heavy"}
 INK, MUTED, GRID = "#1f1f1e", "#6b6a64", "#e4e3de"
 
 plt.rcParams.update({

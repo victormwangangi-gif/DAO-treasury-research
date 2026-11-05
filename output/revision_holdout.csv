@@ -1,0 +1,15 @@
+period,allocation,abs_es_95
+Calibration (Jul 2023-Dec 2024),Framework target (40/40/20),0.04485211679203761
+Calibration (Jul 2023-Dec 2024),Most exposed permitted (30/40/30),0.055633079416629413
+Calibration (Jul 2023-Dec 2024),Most defensive permitted (50/40/10),0.03528398985640545
+Calibration (Jul 2023-Dec 2024),Observed Type A median,0.11198762696024347
+Calibration (Jul 2023-Dec 2024),Observed Type B median,0.0868512488109296
+Calibration (Jul 2023-Dec 2024),Observed Type C median,0.03939295888389258
+Calibration (Jul 2023-Dec 2024),Budget (half calibration Type A median),0.05599381348012174
+Hold-out (Jan 2025-Sep 2026),Framework target (40/40/20),0.04764838554096323
+Hold-out (Jan 2025-Sep 2026),Most exposed permitted (30/40/30),0.057875705678483574
+Hold-out (Jan 2025-Sep 2026),Most defensive permitted (50/40/10),0.03781481284587395
+Hold-out (Jan 2025-Sep 2026),Observed Type A median,0.12110533009464258
+Hold-out (Jan 2025-Sep 2026),Observed Type B median,0.07799542324415135
+Hold-out (Jan 2025-Sep 2026),Observed Type C median,0.03128616753963651
+Hold-out (Jan 2025-Sep 2026),Budget (half calibration Type A median),0.05599381348012174

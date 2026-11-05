@@ -1,0 +1,38 @@
+TABLE 13 - TIER SHARES AGAINST THE FRAMEWORK BANDS
+
+Aave
+  tier1_stable   mean  22.8  range   9.5- 36.6  (band 30-50)
+  tier2_crypto   mean  14.1  range   7.3- 22.9  (band 30-50)
+  tier3_native   mean  63.1  range  41.5- 74.3  (band 10-30)
+  snapshots within all bands: 0 of 14
+  distance from bands (pp): mean 57.2, range 19.6-78.6
+
+ENS
+  tier1_stable   mean   4.4  range   1.0- 11.4  (band 30-50)
+  tier2_crypto   mean  11.0  range   7.2- 17.1  (band 30-50)
+  tier3_native   mean  84.6  range  73.1- 91.7  (band 10-30)
+  snapshots within all bands: 0 of 14
+  distance from bands (pp): mean 99.2, range 76.2-113.5
+
+TABLE 14 - SPEARMAN CORRELATION: DISTANCE FROM BANDS vs NEXT-QUARTER OUTCOMES
+Outcome                 DAO      n     rho       p   adj p  if framework helps
+
+|ES 95%|                Aave    13    0.23   0.448   1.000  Positive
+|ES 90%|                Aave    13    0.43   0.138   0.830  Positive
+Volatility              Aave    13    0.47   0.105   0.628  Positive
+Maximum drawdown        Aave    13   -0.02   0.943   1.000  Positive
+Sharpe ratio            Aave    13    0.10   0.734   1.000  Negative
+Runway (same quarter)   Aave     -       -       -       -  Negative
+
+|ES 95%|                ENS     13    0.74   0.004   0.025  Positive
+|ES 90%|                ENS     13    0.75   0.003   0.020  Positive
+Volatility              ENS     13    0.62   0.024   0.141  Positive
+Maximum drawdown        ENS     13    0.50   0.082   0.491  Positive
+Sharpe ratio            ENS     13   -0.22   0.471   1.000  Negative
+Runway (same quarter)   ENS     14    0.47   0.088   0.528  Negative
+
+adj p = Bonferroni across the 6 outcomes within each DAO.
+
+Figures written to:
+  /tmp/claude-0/-home-claude/10d632cf-9b7f-5537-8aa2-be252e83080c/scratchpad/fb/work/scripts/../output/figures/fig5_1_frontier.png
+  /tmp/claude-0/-home-claude/10d632cf-9b7f-5537-8aa2-be252e83080c/scratchpad/fb/work/scripts/../output/figures/fig5_2_validation.png

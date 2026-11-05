@@ -100,7 +100,7 @@ def table_14(val):
 
 def figure_8(grid, observed):
     es = {t: observed.loc[observed["archetype"] == t, "abs_es_95"].median() * 100 for t in "ABC"}
-    budget = (es["B"] + es["C"]) / 2
+    budget = es["A"] / 2          # budget rule: half the tail loss of the median concentrated treasury
     fig, ax = plt.subplots(figsize=(7.5, 4.8))
     ax.axvspan(10, 30, color=ORANGE, alpha=0.07, lw=0)
     ax.text(20, 10.5, "Tier 3 band\n10–30%", ha="center", va="center", color="#b5481f", fontsize=9)
@@ -117,8 +117,9 @@ def figure_8(grid, observed):
         ax.axhline(es[t], color=GREY, ls=ls, lw=1.1)
         ax.text(0.5, es[t] + 0.15, f"Type {t} observed median ({es[t]:.1f}%)", color=GREY, fontsize=8.5)
     ax.axhline(budget, color="#111111", lw=1.4)
-    ax.text(0.5, budget - 0.45, f"Tail-risk budget ({budget:.1f}%)", color="#111111", fontsize=8.5)
-    ax.set_xlim(-1, 62)
+    ax.text(60.5, budget - 0.15, f"Tail-risk budget:\nhalf the Type A\nmedian ({budget:.1f}%)", va="top", fontsize=8.5, color="#111111")
+    ax.set_xlim(-1, 72)
+    ax.set_ylim(2, 12.6)
     ax.set_xlabel("Tier 3 (native token) share of the simulated treasury (%)")
     ax.set_ylabel("|ES 95%| (%), median across native tokens")
     path = os.path.join(FIGURES, "fig5_1_frontier.png")
