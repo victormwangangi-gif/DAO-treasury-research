@@ -1,0 +1,22 @@
+full: budget 5.8190%; bands Tier 1 30-50, Tier 2 30-50, Tier 3 10-30; 19 allocations; max |ES| 5.7998%
+   with 5-point band limits: Tier 1 35-50, Tier 3 10-35
+cal: budget 5.5990%; bands Tier 1 30-50, Tier 2 30-50, Tier 3 10-30; 19 allocations; max |ES| 5.5633%
+   with 5-point band limits: Tier 1 35-50, Tier 3 10-35
+
+Hold-out test of the calibration bands (budget 5.5990%):
+ cal: 19 of 19 within budget
+   30/40/30: 5.5633%
+   35/35/30: 5.3006%
+   30/45/25: 5.2808%
+   (40, 40, 20): 4.4852%
+   (30, 40, 30): 5.5633%
+   (30, 45, 25): 5.2808%
+   (50, 40, 10): 3.5284%
+ hold: 17 of 19 within budget
+   30/40/30: 5.7876%
+   30/45/25: 5.6383%
+   30/50/20: 5.4937%
+   (40, 40, 20): 4.7648%
+   (30, 40, 30): 5.7876%
+   (30, 45, 25): 5.6383%
+   (50, 40, 10): 3.7815%

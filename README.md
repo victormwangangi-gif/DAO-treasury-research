@@ -55,7 +55,8 @@ Run the scripts from inside the `scripts` folder, in this order:
 | 4 | `04_robustness_and_figures.py` | Robustness checks and Figures 2–7 | 4.7 |
 | 5 | `05_framework_calibration.py` | Simulates 231 tier mixes to calibrate the framework; builds the Aave/ENS validation data | 5.2, 5.3 |
 | 6 | `06_validation_and_figures.py` | Distance from the bands, correlations for the Aave/ENS application, and Figures 8–9 | 5.3 |
-| 7 | `07_revision_analyses.py` | Stand-alone asset risk, bootstrap confidence intervals, modified Sharpe ratio (H₃), benchmark-adjusted event returns, runway ranks, hold-out test and trading-cost sensitivity (Tables 4, 5, 7, 8, 14, 15) | 3.4–3.7, 4.3–4.7, 5.2 |
+| 7 | `07_revision_analyses.py` | Stand-alone asset risk, bootstrap confidence intervals, modified Sharpe ratio (H₃), benchmark-adjusted event returns, runway ranks, hold-out budgets and trading-cost sensitivity (Tables 4, 5, 7, 8, 15) | 3.4–3.7, 4.3–4.7, 5.2 |
+| 8 | `08_band_rule_holdout.py` | Derives the bands by the explicit rule on the full and calibration periods, and tests the calibration bands on the hold-out period (Table 14) | 5.2.2 |
 
 Note that `01b` runs before `00d`, because the backfill reads the extracted composition.
 
